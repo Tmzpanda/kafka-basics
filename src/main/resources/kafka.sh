@@ -15,7 +15,6 @@ kafka-consumer-groups --bootstrap-server localhost:9092 --list
 kafka-consumer-groups --bootstrap-server localhost:9092 --describe --group first-application
 kafka-consumer-groups --bootstrap-server localhost:9092 --group first-application --reset-offsets --to-datetime 2017-08-04T00:00:00.000 --execute --topic first_topic
 kafka-consumer-groups --bootstrap-server localhost:9092 --group first-application --reset-offsets --shift-by -2 --execute --topic first_topic
-
 kafka-console-consumer --bootstrap-server 127.0.0.1:9092 --topic first_topic --group first-application
 
 connect-standalone connect-standalone.properties twitter.properties
