@@ -1,3 +1,4 @@
+cd /Users/tianming/Downloads/kafka_2.12-2.4.1 
 zookeeper-server-start config/zookeeper.properties
 kafka-server-start config/server.properties
 
