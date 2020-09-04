@@ -1,4 +1,4 @@
 # kafka-basics                   
 Kafka Producer and Consumer API               
-kafka Connect and Streams Demo                
+Kafka Connect and Streams Demo                
 
